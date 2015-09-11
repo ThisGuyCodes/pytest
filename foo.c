@@ -17,7 +17,7 @@ static PyMethodDef MyMethods[] = {
 };
 
 static struct PyModuleDef MyModule = {
-   PyModuleDef_HEAD_INIT, "foo", NULL, -1, FooMethods
+   PyModuleDef_HEAD_INIT, "foo", NULL, -1, MyMethods
 };
 
 PyMODINIT_FUNC
